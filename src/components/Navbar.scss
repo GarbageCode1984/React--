@@ -1,0 +1,46 @@
+.login_btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  position: relative;
+  top: 50px;
+  span {
+    margin-left: 10px;
+    line-height: 1;
+  }
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 40px;
+  border: 1px solid red;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  .menu-list {
+    display: flex;
+    li {
+      padding: 0 10px;
+    }
+  }
+}
+
+.search {
+  position: absolute;
+  right: 30px;
+  border-bottom: 1px solid #000;
+  width: 10vw;
+  white-space: nowrap;
+  padding: 5px;
+  margin-top: -20px;
+  input {
+    border: none;
+    outline: none;
+    width: calc(100% - 30px);
+    margin-left: 10px;
+    font-size: 0.95rem;
+    vertical-align: top;
+  }
+}
